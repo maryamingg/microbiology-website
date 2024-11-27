@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MICROBIOLOGY</h1>
+        <nav>
+            <ul>
+                <li><a href="#chapter1">Chapter 1</a></li>
+                <li><a href="#chapter2">Chapter 2</a></li>
+                <li><a href="#chapter3">Chapter 3</a></li>
+                <li><a href="#chapter4">Chapter 4</a></li>
+                <li><a href="#chapter5">Chapter 5</a></li>
+                <li><a href="#chapter6">Chapter 6</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="chapter1">
+            <h2>Chapter 1 Title</h2>
+            <p>Your content for Chapter 1 goes here.</p>
+        </section>
+        <section id="chapter2">
+            <h2>Chapter 2 Title</h2>
+            <p>Your content for Chapter 2 goes here.</p>
+        </section>
+        <section id="chapter3">
+            <h2>Chapter 3 Title</h2>
+            <p>Your content for Chapter 3 goes here.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+}
